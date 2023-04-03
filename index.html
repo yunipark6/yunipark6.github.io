@@ -25,8 +25,7 @@
 <body data-bs-spy="scroll" data-bs-target="#nav-wrap">
     <!--------------------------- HOME --------------------------->
     <header id="home" style="object-fit: cover;">
-        <img id="home-img" src="img/lake.jpg">
-        <nav id="nav-wrap" style="display: block;">
+        <nav id="nav-wrap">
             <ul id="nav" class="nav">
                 <li>
                     <a href="#home">HOME</a></li>
@@ -41,71 +40,87 @@
             </ul>
         </nav>
 
-        <div class="top">
-            <h1>YUNI PARK</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <ul class="social">
-                <li>
-                    <a href="https://github.com/yunipark"><i class="fa fa-github"></i></a>
-                </li>
-                
-                <li>
-                    <a href="https://www.linkedin.com/in/yunipark/"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                    <a href="mailto:yunipark@gmail.com"><i class="fa fa-envelope"></i></a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- <p class="scrolldown">
-            <a class="smoothscroll" href="#about">
-                <i class="icon-down-circle"></i>
-            </a>
-        </p> -->
+        <div class="row banner">
+            <div class="banner-text">
+                <h1>Yuni Park</h1>
+                <!-- <h3> <span>Data Analyst</span> | <span>Software Engineer</span> | <span>Founder</span></h3> -->
+                <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.<span></span></span></p>
+                <ul class="social">
+                    <li><a href="https://github.com/yunipark6" target=”_blank”><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/anna-yuni-park/" target=”_blank”><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="mailto:yunipark@gmail.com" target=”_blank”><i class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>
+         </div>
     </header>
     
     <!--------------------------- ABOUT --------------------------->
     <section id="about" class="dark">
-        <div class="section-intro">
-            <div>
-                <h3>ABOUT</h3>
-                <h2>A Little Bit About Myself.</h2>
-            </div>
-            <!-- <div id="about-me"> -->
-                <!-- <h3>ABOUT</h3>
-                <h2>A Little Bit About Myself.</h2> -->
-                <!-- <p>
-                    Hello, my name is Yuni Park and I am a Computer Science student at the University of Michigan in 
-                    Ann Arbor graduating May 2023. I am interested in the intersection between software, sustainability, and art. Welcome to my website (my first one).
-                </p>
-            </div> -->
-        </div>
+
         <div id="profile">
-            <img src="img/cat.jpg" id="profile-img" alt="Yuni Park">
-            <p>
-                Hello, my name is Yuni Park and I am a Computer Science student at the University of Michigan in 
-                Ann Arbor graduating May 2023. I am interested in the intersection between software, sustainability, and art. Welcome to my website.
-            </p>
+            <div class="row about-content">
+                <div class="section-intro">
+                    <div>
+                        <h3>ABOUT</h3>
+                        <h2>A Little Bit About Myself.</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-3 col-4" id="test1">
+                        <img src="img/cat.jpg" id="profile-img" alt="Yuni Park">
+                    </div>
+                    <div class="col-sm-7 col-9" id="test2">
+                        <p>
+                            Hello, my name is Yuni Park and I am a Computer Science student at the University of Michigan in 
+                            Ann Arbor graduating May 2023. I am interested in the intersection between software, sustainability, and art. Welcome to my website.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container-fluid">
-            <div class="row profile-skills">
-                <div class="pt-5 px-5 col-sm-6">
-                    <h4 style="color: #d7d7d7">PROFILE</h4>
-                    <p>Double B.S. in Computer Science & Biology</p>
+            <div class="row profile-skills-content">
+                <div class="pt-5 px-5 col-sm-6" id="profile-left">
+                    <h4 class="dark">Profile</h4>
+
+                    <p id="sub-p">Fullname</p>
+                    <p>Anna Yunee Park</p>
+
+                    <p id="sub-p">Preferred name</p>
+                    <p>Yuni</p>
+
+                    <p id="sub-p">Graduation</p>
+                    <p>May 2023</p>
+
+                    <p id="sub-p">School</p>
+                    <p>University of Michigan, Ann Arbor</p>
+
+                    <p id="sub-p">Degree(s)</p>
+                    <p>B.S. Computer Science <br> B.S. Biology, Health, and Society</p>
                 </div>
-                <div class="pt-5 px-5 col-sm-6">
-                    <h4 style="color: #d7d7d7">SKILLS</h4>
-                    <p>fesk fsj fsjisfd  fsddjjsd f sjfb ajf  ahudfjh aujh f ajff dgsha.</p>
-                    <ul>
-                        <li>C/C++</li>
-                        <li>Python</li>
-                        <li>Javascript</li>
-                        <li>HTML/CSS</li>
-                    </ul>
+                <div class="pt-5 px-5 col-sm-6" id="profile-right">
+                    <h4 class="dark">Skills</h4>
+
+                    <p id="sub-p">Software Engineering</p>
+                    <p>
+                        C/C++<br>
+                        Python<br>
+                        HTML/CSS<br>
+                        Javascript<br>
+                    </p>
+                    <p class="tab">
+                        &bull; React<br>
+                        &bull; Ajax<br>
+                        &bull; Node.js<br>
+                    </p>
+                    <p>
+                        SQL<br>
+                        GitHub<br>
+                    </p>
+
+                    <p id="sub-p">UI/UX Design</p>
+                    <p>Figma<br>Adobe XD<br>Adobe Illustrator<br></p>
                 </div>
             </div>
         </div>
@@ -184,9 +199,9 @@
                 <h2 class="light">Some of My Favorite Projects.</h2>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row" style="margin-top: 2rem;">
-                <div class="col-md-4 project">
+        <div class="container-fluid site-width">
+            <div class="row">
+                <div class="col-sm-4 project">
                     <a href="#modal1" data-bs-toggle="modal" class="modal-object">
                         <img class="project-img" src="img/cat.jpg">
                         <h5>TITLE</h5>
@@ -194,7 +209,7 @@
                             adipiscing elit</p>
                     </a> 
                 </div>
-                <div class="col-md-4 project">
+                <div class="col-sm-4 project">
                     <a href="#modal2" data-bs-toggle="modal" data-theVideo="https://youtu.be/PrOeSmgjnJM" class="modal-object">
                         <img class="project-img" src="img/cat.jpg">
                         <h5>TITLE</h5>
@@ -202,7 +217,7 @@
                             adipiscing elit</p>
                     </a> 
                 </div>
-                <div class="col-md-4 project">
+                <div class="col-sm-4 project">
                     <a href="#modal1" data-bs-toggle="modal" class="modal-object">
                         <img class="project-img" src="img/cat.jpg">
                         <h5>TITLE</h5>
@@ -214,7 +229,7 @@
         </div>
     </section>
 
-    <section id="contact" class="light" style="height: 500px;">
+    <section id="contact" class="light">
         <div class="section-intro">
             <div>
                 <h3 class="light">CONTACT</h3>
@@ -229,11 +244,10 @@
                 <div class="col-sm-auto text-center">
                     <a class="social" href=" tel:+353123456789 "><i class="fas fa-phone-square"></i></a>
                     <a class="social" href="mailto:youremail@email.com "><i class="fas fa-at"></i></a>
-                    <a class="social" href=" "><i class="fab fa-facebook-f"></i></a>
                     <a class="social" href=" "><i class="fab fa-instagram"></i></a>
                 </div>
                 <div class="col-sm-auto text-center">
-                    <p>Copyright © Date Name. All rights reserved.</p>
+                    <p>Copyright © 2023. All rights reserved.</p>
                 </div>
 
             </div>
