@@ -254,7 +254,7 @@ li {
 }
 img#profile-img {
     position: relative;
-    bottom: 0px;
+    /* bottom: 0px; */
     width: 100px;
     object-fit: cover;
     border-radius: 50%;
@@ -592,6 +592,9 @@ div#hline {
     }
     .profile-skills-content p#sub-p-first {
         padding: 10px 0px 0px 0px; /* top right bottom left */
+    }
+    img#profile-img {
+        bottom: 0px;
     }
 }
 @media only screen and (max-width: 400px) {
