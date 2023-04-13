@@ -6,15 +6,14 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="Yuni Park's Personal Website" />
+    <meta name="keywords" content="software engineering, computer science, c++, python, javascript, UX design, UI design, graphic design" />
+    <meta name="author" content="Yuni Park" />
     <title>Yuni Park / Home</title>
 
     <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Custom CSS ––––––––––––––––––––––––––– -->
-    <!-- Active the custom CSS link by removing the comment marks -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Fontawesome ––––––––––––––––––––––––––– -->
     <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
@@ -44,8 +43,7 @@
             <div class="banner-text">
                 <h1>Yuni Park</h1>
                 <!-- <h3> <span>Data Analyst</span> | <span>Software Engineer</span> | <span>Founder</span></h3> -->
-                <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.<span></span></span></p>
+                <p>Personal Website</p>
                 <ul class="social">
                     <li><a href="https://github.com/yunipark6" target=”_blank”><i class="fa fa-github"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/anna-yuni-park/" target=”_blank”><i class="fa fa-linkedin"></i></a></li>
@@ -103,7 +101,7 @@
                 </div>
                 <div class="col-sm-6" id="profile-right">
                     <div class="row">
-                        <h4 class="dark">Skills</h4>
+                        <h4 title="Software Engineering Skills" class="dark">Skills</h4>
                         <p id="sub-p-first">Software Engineering</p>
                         <div class="col-md-5 skills-col">
                             <p>
@@ -140,62 +138,252 @@
                 <h2 class="light">Some of My Credentials.</h2>
             </div>
         </div>
-        <div style="text-align: center;">
-            <h5>WORK EXPERIENCE</h4>
+
+        <!-- WORK EXPERIENCE -->
+        <div class="container-fluid resume-sub-section">
+            <h4 class="row justify-content-center experience">Work Experience</h4>
+            <div class="row cd-timeline-block justify-content-center hide-me" style="height: 30px;">
+                <!-- <div class="col-sm-1 col-2 center"> <div class="vline-small-screen"></div> </div> -->
+                <div class="col-sm-4 col-12"></div>
+                <div class="col-sm-1 col-12 center"> <div class="vline"></div> </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;"></div>
+            </div> <!-- cd-timeline-block -->
+            <div class="row cd-timeline-block justify-content-center">
+                <div class="col-sm-4 col-12 job-intro">
+                    <h4>Software Engineer Intern</h4>
+                    <p class="date">June 2022 - August 2022</p>
+                </div>
+                <div class="col-sm-1 col-12 center">
+                    <div class="vline"></div>
+                    <div class="resume-timeline-img cd-picture">
+                        <img id="resume-symbol" src="img/cat.jpg" alt="Picture">
+                    </div> <!-- resume-timeline-img --> 
+                </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;">
+                    <div class="resume-timeline-content">
+                        <h2 class="company">Solar Window</h2>
+                        <div id="hline"></div>
+                        <p class="cd-date">Seoul, South Korea</p>
+                        <ul class="job-description">
+                            <li>Maintained and developed website using HTML, CSS, JavaScript, and Python for solar energy startup</li>
+                            <li>Redesigned official logo in Illustrator and created PowerPoint presentations for investor and stakeholder meetings</li>
+                            <li>Received full-time return offer</li>
+                        </ul>
+                    </div> <!-- cd-timeline-content -->
+                </div>
+            </div> <!-- cd-timeline-block -->
+            <div class="row cd-timeline-block justify-content-center">
+                <div class="col-sm-4 col-12 job-intro">
+                    <h4>Software Engineer Project Lead Intern</h4>
+                    <p class="date">June 2021 - August 2021</p>
+                </div>
+                <div class="col-sm-1 col-12 center">
+                    <div class="vline last-vline"></div>
+                    <div class="resume-timeline-img cd-picture">
+                        <img id="resume-symbol" src="img/cat.jpg" alt="Picture">
+                    </div> <!-- resume-timeline-img --> 
+                </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;">
+                    <div class="resume-timeline-content">
+                        <h2 class="company">Drift Net Securities</h2>
+                        <div id="hline"></div>
+                        <p class="cd-date">Chicago, IL</p>
+                        <ul class="job-description">
+                            <li>Led a technical team of three to construct an automated pipeline of 2D floor plans to 3D models that ultimately increased efficiency of building a model from one day to one hour</li>
+                            <li>Built a predictive model using PyTorch and OpenCV to identify key features in large floorplans, a C++ application that enabled Geospatial Model Specialists to quickly fine-tune features, and Blender scripts to automate 3D construction</li>
+                            <li>Received full-time return offer as Principal AI/ML Software Developer</li>
+                        </ul>
+                    </div> <!-- cd-timeline-content -->
+                </div>
+            </div> <!-- cd-timeline-block -->
         </div>
-        <div class="container-fluid" style="margin-top: 3rem;">
-            <div class="row px-5 resume-entry">
-                <div class="col-sm-3">
-                    <h7>Software Engineer</h7>
+
+        <!-- LEADERSHIP EXPERIENCE -->
+        <div class="container-fluid resume-sub-section">
+            <h4 class="row justify-content-center experience">Leadership Experience</h4>
+            <div class="row cd-timeline-block justify-content-center hide-me" style="height: 30px;">
+                <div class="col-sm-4 col-12"></div>
+                <div class="col-sm-1 col-12 center"> <div class="vline"></div> </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;"></div>
+            </div> <!-- cd-timeline-block -->
+            <div class="row cd-timeline-block justify-content-center">
+                <div class="col-sm-4 col-12 job-intro">
+                    <h4>Co-founder & UI/UX Lead</h4>
+                    <p class="date">Jan 2023 - Feb 2023</p>
                 </div>
-                <div id="hline"></div>
-                <div class="col-sm-2" style="align-items: center;" id="resume-symbol">
-                    <img src="img/cat.jpg" id="resume-symbol">
-                    <div id="vline"></div>
+                <div class="col-sm-1 col-12 center">
+                    <div class="vline"></div>
+                    <div class="resume-timeline-img cd-picture">
+                        <img id="resume-symbol" src="img/cat.jpg" alt="Picture">
+                    </div> <!-- resume-timeline-img --> 
                 </div>
-                <div class="col-sm-6">
-                    <h6>Blue Talks</h6>
-                    
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;">
+                    <div class="resume-timeline-content">
+                        <h2 class="company">Ross FinTech Challenge 2023</h2>
+                        <div id="hline"></div>
+                        <p class="cd-date">Ann Arbor, MI</p>
+                        <ul class="job-description">
+                            <li>Collaborated with a team of four MBA and computer science students over one month to co-found “ZILLA”, a fintech startup that provides a new type of credit card that promotes financial literacy and accessibility</li>
+                            <li>Identified problem in fintech landscape and developed disruptive solution, securing 2nd place out of 150+ participants and a cash prize of $4,000</li>
+                        </ul>
+                    </div> <!-- cd-timeline-content -->
                 </div>
-                <div class="col-sm-3"></div>
-            </div>
-            <div class="row px-5 resume-entry">
-                <div class="col-sm-3">
-                    <h7>Software Engineer</h7>
+            </div> <!-- cd-timeline-block -->
+            <div class="row cd-timeline-block justify-content-center">
+                <div class="col-sm-4 col-12 job-intro">
+                    <h4>Analysis & UI/UX Lead</h4>
+                    <p class="date">Feb 2023</p>
                 </div>
-                <div id="hline"></div>
-                <div class="col-sm-2" style="align-items: center;" id="resume-symbol">
-                    <img src="img/cat.jpg" id="resume-symbol">
-                    <div id="vline"></div>
+                <div class="col-sm-1 col-12 center">
+                    <div class="vline last-vline"></div>
+                    <div class="resume-timeline-img cd-picture">
+                        <img id="resume-symbol" src="img/cat.jpg" alt="Picture">
+                    </div> <!-- resume-timeline-img --> 
                 </div>
-                <div class="col-sm-6">
-                    <h6>Blue Talks</h6>
-                    
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;">
+                    <div class="resume-timeline-content">
+                        <h2 class="company">Ross Datathon Competition 2023</h2>
+                        <div id="hline"></div>
+                        <p class="cd-date">Ann Arbor, MI</p>
+                        <ul class="job-description">
+                            <li>Led a four-person team in a datathon competition, securing 4th place among 200+ participants and 1st place for audience choice</li>
+                            <li>Utilized Python to analyze and visualize a large and messy data set, uncovering critical insights into the airline industry</li>
+                            <li>Conducted stakeholder surveys to gather primary data, incorporating industry perspectives into the team’s solution</li>
+                        </ul>
+                    </div> <!-- cd-timeline-content -->
                 </div>
-                <div class="col-sm-3"></div>
-            </div>
-            <div class="row px-5 resume-entry">
-                <div class="col-sm-3">
-                    <h7>Software Engineer</h7>
-                </div>
-                <div id="hline"></div>
-                <div class="col-sm-2" style="align-items: center;" id="resume-symbol">
-                    <img src="img/cat.jpg" id="resume-symbol">
-                    <div id="vline"></div>
-                </div>
-                <div class="col-sm-6">
-                    <h6>Blue Talks</h6>
-                    
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                </div>
-                <div class="col-sm-3"></div>
-            </div>
+            </div> <!-- cd-timeline-block -->
         </div>
+
+        <!-- PROJECT EXPERIENCE -->
+        <div class="container-fluid resume-sub-section">
+            <h4 class="row justify-content-center experience project-experience">Project Experience</h4>
+            <div class="row cd-timeline-block justify-content-center hide-me" style="height: 30px;">
+                <div class="col-sm-4 col-12"></div>
+                <div class="col-sm-1 col-12 center"> <div class="vline"></div> </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;"></div>
+            </div> <!-- cd-timeline-block -->
+            <div class="row cd-timeline-block justify-content-center">
+                <div class="col-sm-4 col-12 project-intro">
+                    <h4 class="project-text">Computer Vision, PyTorch, Python</h4>
+                    <p class="date">Feb 2022 – Apr 2022</p>
+                </div>
+                <div class="col-sm-1 col-12 center">
+                    <div class="vline"></div>
+                    <div class="resume-timeline-img cd-picture">
+                        <img id="resume-symbol" src="img/cat.jpg" alt="Picture">
+                    </div> <!-- resume-timeline-img --> 
+                </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;">
+                    <div class="resume-timeline-content">
+                        <h2 class="company">Colorizing Grayscale Image</h2>
+                        <div id="hline"></div>
+                        <p class="cd-date">Ann Arbor, MI</p>
+                        <ul class="job-description">
+                            <li>Trained a deep learning model to predict color value of an image given a grayscale image as input</li>
+                            <li>Architected an 8-layer, feed-forward convolutional neural network (CNN) using the PyTorch framework</li>
+                        </ul>
+                    </div> <!-- cd-timeline-content -->
+                </div>
+            </div> <!-- cd-timeline-block -->
+            <div class="row cd-timeline-block justify-content-center">
+                <div class="col-sm-4 col-12 project-intro">
+                    <h4 class="project-text">Python, JavaScript, HTML/CSS</h4>
+                    <p class="date">Sep 2021 – Oct 2021</p>
+                </div>
+                <div class="col-sm-1 col-12 center">
+                    <div class="vline last-vline"></div>
+                    <div class="resume-timeline-img cd-picture">
+                        <img id="resume-symbol" src="img/cat.jpg" alt="Picture">
+                    </div> <!-- resume-timeline-img --> 
+                </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;">
+                    <div class="resume-timeline-content">
+                        <h2 class="company">Instagram Web Application</h2>
+                        <div id="hline"></div>
+                        <p class="cd-date">Ann Arbor, MI</p>
+                        <ul class="job-description">
+                            <li>Built a website using server-side dynamic pages that allows users to interact through posts, likes, and comments</li>
+                            <li>Created shell scripts to manage SQL database and sha512 hash functions to securely store passwords</li>
+                            <li>Upgraded to client-side dynamic pages using JavaScript that runs in browser and makes AJAX calls to the REST API</li>
+                        </ul>
+                    </div> <!-- cd-timeline-content -->
+                </div>
+            </div> <!-- cd-timeline-block -->
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="container-fluid resume-sub-section">
+            <h4 class="row justify-content-center experience project-experience">Education</h4>
+            <div class="row cd-timeline-block justify-content-center hide-me" style="height: 30px;">
+                <div class="col-sm-4 col-12"></div>
+                <div class="col-sm-1 col-12 center"> <div class="vline"></div> </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;"></div>
+            </div> <!-- cd-timeline-block -->
+            <div class="row cd-timeline-block justify-content-center">
+                <div class="col-sm-4 col-12 edu-intro">
+                    <h4>Computer Science</h4>
+                    <p class="degree">Bachelor of Science<p></p>
+                    <p class="date">Aug 2018 – May 2023</p>
+                </div>
+                <div class="col-sm-1 col-12 center">
+                    <div class="vline"></div>
+                    <div class="resume-timeline-img cd-picture">
+                        <img id="resume-symbol" src="img/cat.jpg" alt="Picture">
+                    </div> <!-- resume-timeline-img --> 
+                </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;">
+                    <div class="resume-timeline-content">
+                        <h2 class="company">University of Michigan</h2>
+                        <div id="hline"></div>
+                        <p class="cd-date">Ann Arbor, MI</p>
+                        <p class="blurb">Computer Science Major</p>
+                    </div> <!-- cd-timeline-content -->
+                </div>
+            </div> <!-- cd-timeline-block -->
+            <div class="row cd-timeline-block justify-content-center">
+                <div class="col-sm-4 col-12 edu-intro">
+                    <h4>Biology, Health, & Society</h4>
+                    <p class="degree">Bachelor of Science<p>
+                    <p class="date">Aug 2018 – May 2023</p>
+                </div>
+                <div class="col-sm-1 col-12 center">
+                    <div class="vline"></div>
+                    <div class="resume-timeline-img cd-picture">
+                        <img id="resume-symbol" src="img/cat.jpg" alt="Picture">
+                    </div> <!-- resume-timeline-img --> 
+                </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;">
+                    <div class="resume-timeline-content">
+                        <h2 class="company">University of Michigan</h2>
+                        <div id="hline"></div>
+                        <p class="cd-date">Ann Arbor, MI</p>
+                        <p class="blurb">BHS Major</p>
+                    </div> <!-- cd-timeline-content -->
+                </div>
+            </div> <!-- cd-timeline-block -->
+            <div class="row cd-timeline-block justify-content-center">
+                <div class="col-sm-4 col-12 edu-intro">
+                    <h4>High School Degree</h4>
+                    <p class="date">Aug 2014 – Jun 2018</p>
+                </div>
+                <div class="col-sm-1 col-12 center">
+                    <div class="vline"></div>
+                    <div class="resume-timeline-img cd-picture">
+                        <img id="resume-symbol" src="img/cat.jpg" alt="Picture">
+                    </div> <!-- resume-timeline-img --> 
+                </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;">
+                    <div class="resume-timeline-content">
+                        <h2 class="company">Lick-Wilmerding High School</h2>
+                        <div id="hline"></div>
+                        <p class="cd-date">San Francisco, CA</p>
+                        <p class="blurb">High school</p>
+                    </div> <!-- cd-timeline-content -->
+                </div>
+            </div> <!-- cd-timeline-block -->
+        </div>
+
     </section>
 
     <section id="projects" class="light">
@@ -241,6 +429,13 @@
                 <h3 class="light">CONTACT</h3>
                 <h2 class="light">Let's Connect.</h2>
             </div>
+        </div>
+        <div style="display: flex; justify-content: center; text-align: left;">
+            <ul class="social">
+                <li><a href="https://github.com/yunipark6" target=”_blank”><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/anna-yuni-park/" target=”_blank”><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="mailto:yunipark@gmail.com" target=”_blank”><i class="fa fa-envelope"></i></a></li>
+            </ul>
         </div>
     </section>
     
@@ -348,7 +543,7 @@
             <!--end of portfolio modal-->
             <div class="modal-footer border-0 justify-content-center">
                 <div class="container">
-                    <!--                    To change this layout, add the justify-content-start or justify-content-end or justify-content-between-->
+                    <!--To change this layout, add the justify-content-start or justify-content-end or justify-content-between-->
                     <div class="row justify-content-center">
                         <div class="col-sm-auto text-center">
                             <a href="#" class="back" data-bs-dismiss="modal">Back to Work</a>
