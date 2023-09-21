@@ -130,12 +130,7 @@ p {
     text-align: center;
     position: relative;
 }
-/* .section-intro h2 {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 30px;
-} */
+
 .section-intro h2.dark { color: white; }
 .section-intro h2.light { color: #1C1C1C; }
 .dark .section-intro h2 { color: white; }
@@ -147,6 +142,12 @@ p {
     line-height: 1.875;
     margin-bottom: 0.3rem;
     letter-spacing: .2rem;
+}
+.section-intro h3.dark {
+    font-weight: 400;
+}
+.section-intro h3.light {
+    font-weight: 600;
 }
 
 .dark .section-intro h3 { color: var(--accent-light-turq); }
@@ -531,22 +532,30 @@ div#hline {
     padding: 2em;
 }
 .project-img {
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     padding: 0.5em;
-    
+    /* border-radius: 10%; */
 }
 .modal-object {
     text-decoration: none;
 }
+.project h5 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: var(--bg-dark);
+}
 #projects h5 {
     padding: 10px 0px 0px 0px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: var(--bg-dark);
 }
 #projects p {
     padding-left: 2rem;
     padding-right: 2rem;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 0.8rem;
     line-height: 1.875;
     letter-spacing: .15rem;
@@ -609,7 +618,7 @@ div#hline {
         margin-bottom: 1.2rem;
     }
     .section-intro h3 {
-        font-weight: 400;
+        /* font-weight: 600; */
         font-size: 0.9rem;
         line-height: 1.875;
         margin-bottom: 0.3rem;
@@ -783,6 +792,13 @@ div#hline {
         letter-spacing: .15rem;
         line-height: 30px;
         /* margin-bottom: 10px; */
+    }
+    .project-img {
+        width: min(350px, calc(33.33vw - 10px));
+        height: min(350px, calc(33.33vw - 10px));
+        object-fit: cover;
+        padding: 0.5em;
+        /* border-radius: 10%; */
     }
 }
 

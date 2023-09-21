@@ -71,7 +71,7 @@
                     <div class="col-sm-7 col-9" id="test2">
                         <p>
                             Hello, my name is Yuni Park and I am a Computer Science student at the University of Michigan in 
-                            Ann Arbor graduating May 2023. I am interested in the intersection between software, sustainability, and art. Welcome to my website.
+                            Ann Arbor graduating May 2023. I am especially interested in software, sustainability, and art. Welcome to my website.
                         </p>
                     </div>
                 </div>
@@ -109,6 +109,7 @@
                                 Python<br>
                                 HTML/CSS<br>
                                 Javascript<br>
+                                SwiftUI<br>
                             </p>
                         </div>
                         <div class="col-md-5 skills-col">
@@ -131,6 +132,7 @@
         </div>
     </section>
 
+    <!--------------------------- RESUME -------------------------->
     <section id="resume" class="light">
         <div class="section-intro">
             <div>
@@ -147,6 +149,29 @@
                 <div class="col-sm-4 col-12"></div>
                 <div class="col-sm-1 col-12 center"> <div class="vline"></div> </div>
                 <div class="col-sm-6 col-12" style="padding-left: 40px;"></div>
+            </div> <!-- cd-timeline-block -->
+            <div class="row cd-timeline-block justify-content-center">
+                <div class="col-sm-4 col-12 job-intro">
+                    <h4>Research Assistant</h4>
+                    <p class="date">Jan 2023 - Present</p>
+                </div>
+                <div class="col-sm-1 col-12 center">
+                    <div class="vline"></div>
+                    <div class="resume-timeline-img cd-picture">
+                        <img id="resume-symbol" src="img/michigan_engineering.png" alt="Picture">
+                    </div> <!-- resume-timeline-img --> 
+                </div>
+                <div class="col-sm-6 col-12" style="padding-left: 40px;">
+                    <div class="resume-timeline-content">
+                        <h2 class="company">U-M Accessibility Lab</h2>
+                        <div id="hline"></div>
+                        <p class="cd-date">Ann Arbor, MI</p>
+                        <ul class="job-description">
+                            <li>Conduct human subjects research as part of the “Colorwave” project, investigating the use of frequencies to address sensory sensitivities in individuals with autism</li>
+                            <li>Develop an iOS application using SwiftUI and integrate a sound recognition API to detect environmental sounds and recommend customized frequencies</li>
+                        </ul>
+                    </div> <!-- cd-timeline-content -->
+                </div>
             </div> <!-- cd-timeline-block -->
             <div class="row cd-timeline-block justify-content-center">
                 <div class="col-sm-4 col-12 job-intro">
@@ -386,6 +411,7 @@
 
     </section>
 
+    <!--------------------------- PROJECTS --------------------------->
     <section id="projects" class="light">
         <div class="section-intro">
             <div>
@@ -395,15 +421,14 @@
         </div>
         <div class="container-fluid site-width">
             <div class="row">
-                <div class="col-sm-4 project">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 project">
                     <a href="#modal1" data-bs-toggle="modal" class="modal-object">
-                        <img class="project-img" src="img/cat.jpg">
-                        <h5>TITLE</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit</p>
+                        <img class="project-img" src="img/ColorMask/logo.png">
+                        <h5>color wave</h5>
+                        <p>iOS app and research project for sound-sensitive, ASD individuals</p>
                     </a> 
                 </div>
-                <div class="col-sm-4 project">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 project">
                     <a href="#modal2" data-bs-toggle="modal" data-theVideo="https://youtu.be/PrOeSmgjnJM" class="modal-object">
                         <img class="project-img" src="img/cat.jpg">
                         <h5>TITLE</h5>
@@ -411,7 +436,7 @@
                             adipiscing elit</p>
                     </a> 
                 </div>
-                <div class="col-sm-4 project">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 project">
                     <a href="#modal1" data-bs-toggle="modal" class="modal-object">
                         <img class="project-img" src="img/cat.jpg">
                         <h5>TITLE</h5>
@@ -423,6 +448,7 @@
         </div>
     </section>
 
+    <!--------------------------- CONTACT --------------------------->
     <section id="contact" class="light">
         <div class="section-intro">
             <div>
@@ -467,9 +493,9 @@
 
 
 <!--modal 1-->
-<div class="portfolio-modal  modal fade" id="modal1" tabindex="-1 " role="dialog " aria-hidden="true">
+<div class="portfolio-modal modal fade" id="modal1" tabindex="-1 " role="dialog " aria-hidden="true">
     <!-- You can choose the size from modal-xl, modal-lg, modal-sm, modal-fullscreen and apply it to the modal-dialog div -->
-    <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
         <div class="modal-content">
             <div class="modal-header justify-content-end border-0">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -481,11 +507,11 @@
                     <div class="container">
                         <div class="row justify-content-center align-items-start">
                             <div class="col-sm-9">
-                                <img class="img-fluid w-100 mb-3" src="img/cat.jpg" alt="">
+                                <img class="img-fluid w-75 mb-3" src="img/ColorMask/logo.png" alt="">
                             </div>
-                            <div class="col-sm-3">
-                                <h3>Project one</h3>
-                                <p>Project description. Another exciting bit of representative placeholder content. Add more to here.</p>
+                            <div class="col-sm-3 project">
+                                <h5>color wave</h5>
+                                <p>iOS app and research project for sound-sensitive, ASD individuals</p>
                             </div>
                         </div>
                         <div class="row"> <img class="img-fluid w-100" src="img/featuredfruit.jpg" alt=""></div>
